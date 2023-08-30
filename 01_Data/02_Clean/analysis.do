@@ -13,5 +13,5 @@ eststo: reg income treat time treat_time
 
 eststo: reg income treat if time==2
 
-esttab  using "02_Output/results.tex", replace star( * 0.10 ** 0.05 *** 0.01) b(3) se label  fragment ///
+esttab  using "02_Output/results.txt", replace star( * 0.10 ** 0.05 *** 0.01) b(3) se label  fragment ///
 	mlabels("Income DiD" "Income difference mean")
